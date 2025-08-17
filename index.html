@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Celo69 - Aplikasi Trading & Investasi Saham Tampilan UI Grafis IHSG Modern</title>
+        <meta name="description" content="Celo69 adalah aplikasi yang ditujukan kepada orang yang ingin memulai trading dan investasi saham dengan tampilan UI grafis modern sangat enak dilihat. Download dan daftar sekarang! Aplikasi Celo69 telah diawasi OJK dan aman untuk digunakan." />
+        <meta name="keywords" content="Celo69, Celo 69, aplikasi saham, trading saham, investasi saham, ihsg, idx" />
+        <meta name="author" content="Celo69" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://dev.ics-csirt.io/" />
+        <link rel="amphtml" href="https://punya-celo69.com/ics-csirt/" />
+		<meta name="google-site-verification" content="s6VX17G9ldR1daQIrv7fkF5QIvObGRYvehbqDh2pw-0" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dev.ics-csirt.io/" />
+        <meta property="og:title" content="Celo69 - Aplikasi Trading & Investasi Saham Tampilan UI Grafis IHSG Modern" />
+        <meta property="og:description" content="Celo69 adalah aplikasi yang ditujukan kepada orang yang ingin memulai trading dan investasi saham dengan tampilan UI grafis modern sangat enak dilihat. Download dan daftar sekarang! Aplikasi Celo69 telah diawasi OJK dan aman untuk digunakan." />
+        <meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/5acda2f4c258b4bd2d14dca2/1647151379974-927PHODRP1KU0XEE4D3K/Kenali+Jenis+Keuntungan+Investasi+Saham+dan+Jangka+Panjangnya.jpg" />
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://dev.ics-csirt.io/" />
+        <meta property="twitter:title" content="Celo69 - Aplikasi Trading & Investasi Saham" />
+        <meta property="twitter:description" content="Aplikasi yang ditujukan kepada orang yang ingin memulai trading dan investasi saham dengan tampilan UI grafis modern sangat enak dilihat." />
+        <meta property="twitter:image" content="https://images.squarespace-cdn.com/content/v1/5acda2f4c258b4bd2d14dca2/1647151379974-927PHODRP1KU0XEE4D3K/Kenali+Jenis+Keuntungan+Investasi+Saham+dan+Jangka+Panjangnya.jpg" />
+        <link rel="icon" type="image/x-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏥%3C/text%3E%3C/svg%3E" />
+        <!-- CSS Libraries -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+        <!-- JSON-LD Schema Markup -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "Celo69 Investasi Saham",
+                "description": "Aplikasi yang ditujukan kepada orang yang ingin memulai trading dan investasi saham dengan tampilan UI grafis modern sangat enak dilihat.",
+                "url": "https://dev.ics-csirt.io/",
+                "applicationCategory": "HealthApplication",
+                "operatingSystem": "iOS, Android, Web",
+                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "IDR" },
+                "publisher": { "@type": "Organization", "name": "Celo69", "url": "https://dev.ics-csirt.io/" },
+                "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "16869" }
+            }
+        </script>
+        <style>
+            body {
+                font-family: "Inter", sans-serif;
+            }
+            .hero-gradient {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+            .feature-card {
+                transition: all 0.3s ease;
+            }
+            .feature-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+            .btn-primary {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                transition: all 0.3s ease;
+            }
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            }
+            .floating-animation {
+                animation: float 6s ease-in-out infinite;
+            }
+            @keyframes float {
+                0% {
+                    transform: translateY(0px);
+                }
+                50% {
+                    transform: translateY(-20px);
+                }
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+            .pulse-animation {
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.05);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-gray-50">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-lg fixed w-full z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0 flex items-center"><i class="fas fa-shield-virus text-3xl text-purple-600 mr-3"></i> <span class="text-2xl font-bold text-gray-900">Celo69</span></div>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="#features" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Fitur</a>
+                        <a href="#testimonials" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Testimoni</a>
+                        <a href="#faq" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">FAQ</a>
+                        <a href="https://punya-celo69.com/ics-csirt/" class="text-purple-600 hover:text-purple-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Login</a>
+                        <a href="https://punya-celo69.com/ics-csirt/" class="btn-primary text-white px-6 py-2 rounded-lg text-sm font-medium">Daftar</a>
+                    </div>
+                    <div class="md:hidden flex items-center">
+                        <button id="mobile-menu-button" class="text-gray-500 hover:text-gray-600 focus:outline-none"><i class="fas fa-bars text-xl"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+                    <a href="#features" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Fitur</a> <a href="#testimonials" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Testimoni</a>
+                    <a href="#faq" class="block px-3 py-2 text-gray-700 hover:text-purple-600">FAQ</a> <a href="https://punya-celo69.com/ics-csirt/" class="block px-3 py-2 text-purple-600 hover:text-purple-700">Login</a>
+                    <a href="https://punya-celo69.com/ics-csirt/" class="block px-3 py-2 btn-primary text-white rounded-lg text-center">Daftar</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero-gradient pt-20 pb-16 min-h-screen flex items-center">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-white">
+                        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Aplikasi Saham <span class="text-yellow-300">Terbaik</span> di Indonesia</h1>
+                        <p class="text-xl md:text-2xl mb-8 text-gray-100 leading-relaxed">Monitoring pergerakan saham real-time, jual beli otomatis, dan informasi dan update terbaru tentang saham terlengkap</p>
+                        <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                            <a href="https://punya-celo69.com/ics-csirt/" class="btn-primary text-white px-8 py-4 rounded-lg text-lg font-semibold text-center pulse-animation"> <i class="fas fa-download mr-2"></i> Daftar Sekarang </a>
+                            <a href="http://ajbygympass.com/" class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold text-center hover:bg-gray-100 transition-colors">
+                                <i class="fas fa-sign-in-alt mr-2"></i> Login Celo69
+                            </a>
+                        </div>
+                        <div class="flex items-center gap-8 text-gray-100">
+                            <div class="flex items-center"><i class="fas fa-star text-yellow-300 mr-1"></i> <span class="font-semibold">4.9/5</span></div>
+                            <div class="flex items-center"><i class="fas fa-users mr-2"></i> <span>16,869+ Pengguna</span></div>
+                            <div class="flex items-center"><i class="fas fa-shield-check mr-2"></i> <span>Resmi & Terpercaya</span></div>
+                        </div>
+                    </div>
+                    <div class="lg:text-right">
+                        <img
+                            src="https://images.squarespace-cdn.com/content/v1/5acda2f4c258b4bd2d14dca2/1647151379974-927PHODRP1KU0XEE4D3K/Kenali+Jenis+Keuntungan+Investasi+Saham+dan+Jangka+Panjangnya.jpg"
+                            alt="Celo69 Aplikasi Trading & Investasi Saham"
+                            class="w-full max-w-lg mx-auto lg:mx-0 rounded-2xl shadow-2xl floating-animation"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section id="features" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Fitur Unggulan</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Nikmati berbagai fitur canggih yang dirancang membantu anda dalam trading dan investasi saham terbaru</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-heartbeat text-3xl text-blue-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Monitoring Harga Saham</h3>
+                        <p class="text-gray-600 leading-relaxed">Pantau pergerakan saham Anda secara real-time dengan fitur tracking jual beli otomatis dan alert jika harga saham menyentuh harga tertentu</p>
+                    </div>
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-map-marker-alt text-3xl text-green-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Pembacaan Chart</h3>
+                        <p class="text-gray-600 leading-relaxed">Sistem pembacaan chart otomatis yang membantu anda dalam menganalisa tanpa susah payah dengan teknologi AI</p>
+                    </div>
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-syringe text-3xl text-purple-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Info Jam Buka & Tutup</h3>
+                        <p class="text-gray-600 leading-relaxed">Informasi jam buka dan tutup pasar saham di Indonesia serta libur nasional akan tercantum lengkap</p>
+                    </div>
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-ambulance text-3xl text-red-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Fleksibel</h3>
+                        <p class="text-gray-600 leading-relaxed">Aplikasi dapat digunakan dengan mobile phone hanya menggunakan kuota internet saja</p>
+                    </div>
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-chart-line text-3xl text-yellow-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Analisis Tren</h3>
+                        <p class="text-gray-600 leading-relaxed">Dashboard nalitik yang menampilkan pembelian saham secara besar-besaran oleh konglomerat di Indonesia</p>
+                    </div>
+                    <div class="feature-card bg-gray-50 p-8 rounded-2xl">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6"><i class="fas fa-user-md text-3xl text-indigo-600"></i></div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Rekomendasi Online</h3>
+                        <p class="text-gray-600 leading-relaxed">Aplikasi ini juga merekomendasi saham yang bagus akan tetapi bukan ajakan, hanya sebagai acuan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Statistics Section -->
+        <section class="py-20 hero-gradient">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Dipercaya Jutaan Pengguna</h2>
+                    <p class="text-xl text-gray-100 max-w-3xl mx-auto">Celo69 telah digunakan jutaan pengguna Indonesia yang mahir atau baru belajar dalam investasi saham</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="text-center text-white">
+                        <div class="text-5xl font-bold mb-2" id="stat-users">88.888.888</div>
+                        <div class="text-xl text-gray-100">Pengguna Aktif</div>
+                    </div>
+                    <div class="text-center text-white">
+                        <div class="text-5xl font-bold mb-2" id="stat-scans">2 Detik</div>
+                        <div class="text-xl text-gray-100">Estimasi Jual Beli</div>
+                    </div>
+                    <div class="text-center text-white">
+                        <div class="text-5xl font-bold mb-2" id="stat-saved">59.999.999</div>
+                        <div class="text-xl text-gray-100">Withdraw Harian</div>
+                    </div>
+                    <div class="text-center text-white">
+                        <div class="text-5xl font-bold mb-2" id="stat-cities">+100 Kota</div>
+                        <div class="text-xl text-gray-100">Kota Terjangkau</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Apa Kata Mereka</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Testimoni pengguna Celo69 di seluruh Indonesia</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <div class="flex items-center mb-6">
+                            <img
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23667eea'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='white'%3ES%3C/text%3E%3C/svg%3E"
+                                alt="Anita Kusuma"
+                                class="w-12 h-12 rounded-full mr-4"
+                            />
+                            <div>
+                                <h4 class="font-bold text-gray-900">Anita Kusuma</h4>
+                                <p class="text-gray-600">Ibu Rumah Tangga, Medan</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">"Aplikasi ini sangat membantu saya memantau pergerakan saham jika saya sedang sibuk. Fitur alert sangat mudah digunakan!"</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <div class="flex items-center mb-6">
+                            <img
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23764ba2'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='white'%3EB%3C/text%3E%3C/svg%3E"
+                                alt="Doni Angga"
+                                class="w-12 h-12 rounded-full mr-4"
+                            />
+                            <div>
+                                <h4 class="font-bold text-gray-900">Doni Angga</h4>
+                                <p class="text-gray-600">Wirausaha, Gorontalo</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">"Fee jual beli yang sangat rendah, sangat menguntungkan untuk para scalper seperti saya."</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <div class="flex items-center mb-6">
+                            <img
+                                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23667eea'/%3E%3Ctext x='50' y='60' font-size='40' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E"
+                                alt="Sintong Petrus"
+                                class="w-12 h-12 rounded-full mr-4"
+                            />
+                            <div>
+                                <h4 class="font-bold text-gray-900">Sintong Petrus</h4>
+                                <p class="text-gray-600">Dokter Gigi, Jakarta</p>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i> <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">"Sebagai pemula dalam saham, saya sangat bersyukur karna mendapatkan rekomendasi saham yang bagus untuk diinvestasikan."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Pertanyaan Umum</h2>
+                    <p class="text-xl text-gray-600">Pertanyaan yang sering ditanyakan pengguna Celo69</p>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden">
+                        <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none">
+                            <span class="text-lg font-semibold text-gray-900">Apakah Celo69 gratis untuk digunakan?</span> <i class="fas fa-chevron-down text-gray-500 transition-transform"></i>
+                        </button>
+                        <div class="faq-content hidden px-8 pb-6">
+                            <p class="text-gray-700 leading-relaxed">Ya, Celo69 dapat diunduh dan digunakan secara gratis. Kami menyediakan fitur dasar tanpa biaya untuk membantu masyarakat Indonesia mulai investasi saham.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden">
+                        <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none">
+                            <span class="text-lg font-semibold text-gray-900">Bagaimana keamanan data pribadi saya?</span> <i class="fas fa-chevron-down text-gray-500 transition-transform"></i>
+                        </button>
+                        <div class="faq-content hidden px-8 pb-6">
+                            <p class="text-gray-700 leading-relaxed">
+                                Kami menggunakan enkripsi end-to-end dan mengikuti standar keamanan internasional. Data Anda disimpan dengan aman dan hanya digunakan untuk tujuan OJK / Perpajakan sesuai peraturan yang berlaku.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden">
+                        <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none">
+                            <span class="text-lg font-semibold text-gray-900">Apakah aplikasi ini tersedia untuk semua jenis smartphone?</span> <i class="fas fa-chevron-down text-gray-500 transition-transform"></i>
+                        </button>
+                        <div class="faq-content hidden px-8 pb-6">
+                            <p class="text-gray-700 leading-relaxed">Celo69 tersedia untuk iOS, Android, dan dapat diakses melalui web browser. Aplikasi ini kompatibel dengan sebagian besar perangkat modern.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden">
+                        <button class="faq-toggle w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none">
+                            <span class="text-lg font-semibold text-gray-900">Bagaimana cara mendapatkan dukungan teknis?</span> <i class="fas fa-chevron-down text-gray-500 transition-transform"></i>
+                        </button>
+                        <div class="faq-content hidden px-8 pb-6">
+                            <p class="text-gray-700 leading-relaxed">Tim support kami tersedia 24/7 melalui chat dalam aplikasi, email, atau hotline. Kami juga menyediakan panduan lengkap dan video tutorial di website resmi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="py-20 hero-gradient">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Mulai Investasi & Trading Saham Sekarang</h2>
+                <p class="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">Bergabunglah dengan jutaan pengguna yang telah mempercayai Celo69 untuk trading saham dan menggandakan uangnya secara mudah</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://punya-celo69.com/ics-csirt/" class="btn-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:transform hover:scale-105 transition-all">
+                        <i class="fas fa-download mr-2"></i> Daftar Gratis Sekarang
+                    </a>
+                    <a href="https://punya-celo69.com/ics-csirt/" class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-sign-in-alt mr-2"></i> Sudah Punya Akun? Login
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="flex items-center mb-6"><i class="fas fa-shield-virus text-3xl text-purple-400 mr-3"></i> <span class="text-2xl font-bold">Celo69</span></div>
+                        <p class="text-gray-400 mb-6 max-w-md">Aplikasi IHSG terdepan di Indonesia yang membantu jutaan rakyat miskin dalam mencapai financial freedom hanya dengan 1 aplikasi dengan teknologi canggih dan mudah digunakan.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"> <i class="fab fa-instagram"></i> </a>
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors"> <i class="fab fa-linkedin-in"></i> </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-6">Produk</h3>
+                        <ul class="space-y-3 text-gray-400">
+                            <li><a href="#" class="hover:text-white transition-colors">Fitur Utama</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Monitoring Harga Saham</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Pembacaan Chart</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Info Jam Buka & Tutup</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Analisis Tren</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-6">Dukungan</h3>
+                        <ul class="space-y-3 text-gray-400">
+                            <li><a href="#" class="hover:text-white transition-colors">Pusat Bantuan</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Kontak Kami</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Kebijakan Privasi</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Syarat & Ketentuan</a></li>
+                            <li><a href="#" class="hover:text-white transition-colors">Laporan Bug</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm">© 2025 Celo69 - Semua hak cipta dilindungi.</p>
+                    <p class="text-gray-400 text-sm mt-4 md:mt-0">Dibuat dengan ❤️ untuk Indonesia</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script>
+            // Mobile menu toggle         document.getElementById('mobile-menu-button').addEventListener('click', function() {             const mobileMenu = document.getElementById('mobile-menu');             mobileMenu.classList.toggle('hidden');         });         // FAQ toggle         document.querySelectorAll('.faq-toggle').forEach(button => {             button.addEventListener('click', function() {                 const content = this.nextElementSibling;                 const icon = this.querySelector('i');                                 if (content.classList.contains('hidden')) {                     content.classList.remove('hidden');                     icon.classList.add('rotate-180');                 } else {                     content.classList.add('hidden');                     icon.classList.remove('rotate-180');                 }             });         });         // Smooth scrolling for anchor links         document.querySelectorAll('a[href^="#"]').forEach(anchor => {             anchor.addEventListener('click', function (e) {                 e.preventDefault();                 const target = document.querySelector(this.getAttribute('href'));                 if (target) {                     target.scrollIntoView({                         behavior: 'smooth',                         block: 'start'                     });                 }             });         });         // Animated counters         function animateCounter(element, target, duration = 2000) {             const start = 0;             const increment = target / (duration / 16);             let current = start;                         const timer = setInterval(() => {                 current += increment;                 if (current >= target) {                     current = target;                     clearInterval(timer);                 }                                 if (target >= 1000000) {                     element.textContent = (current / 1000000).toFixed(1) + 'M+';                 } else if (target >= 1000) {                     element.textContent = (current / 1000).toFixed(0) + 'K+';                 } else {                     element.textContent = Math.floor(current) + '+';                 }             }, 16);         }         // Intersection Observer for counter animation         const observerOptions = {             threshold: 0.5,             rootMargin: '0px 0px -100px 0px'         };         const observer = new IntersectionObserver((entries) => {             entries.forEach(entry => {                 if (entry.isIntersecting) {                     const counters = [                         { element: document.getElementById('stat-users'), target: 2500000 },                         { element: document.getElementById('stat-scans'), target: 150000 },                         { element: document.getElementById('stat-saved'), target: 25000 },                         { element: document.getElementById('stat-cities'), target: 514 }                     ];                                         counters.forEach(counter => {                         animateCounter(counter.element, counter.target);                     });                                         observer.unobserve(entry.target);                 }             });         }, observerOptions);         // Observe the statistics section         const statsSection = document.querySelector('#stat-users').closest('section');         if (statsSection) {             observer.observe(statsSection);         }         // Scroll to top functionality         window.addEventListener('scroll', function() {             const scrollBtn = document.getElementById('scroll-to-top');             if (window.pageYOffset > 300) {                 if (scrollBtn) scrollBtn.classList.remove('hidden');             } else {                 if (scrollBtn) scrollBtn.classList.add('hidden');             }         });         // Add scroll to top button         document.body.insertAdjacentHTML('beforeend', `             <button id="scroll-to-top" class="hidden fixed bottom-8 right-8 bg-purple-600 text-white w-12 h-12 rounded-full shadow-lg hover:bg-purple-700 transition-all z-50 flex items-center justify-center">                 <i class="fas fa-arrow-up"></i>             </button>         `);         document.getElementById('scroll-to-top').addEventListener('click', function() {             window.scrollTo({                 top: 0,                 behavior: 'smooth'             });         });         // Preloader         window.addEventListener('load', function() {             const preloader = document.getElementById('preloader');             if (preloader) {                 preloader.style.opacity = '0';                 setTimeout(() => {                     preloader.style.display = 'none';                 }, 300);             }         });         // Add preloader HTML         document.body.insertAdjacentHTML('afterbegin', `             <div id="preloader" class="fixed inset-0 bg-white z-50 flex items-center justify-center">                 <div class="text-center">                     <i class="fas fa-shield-virus text-6xl text-purple-600 mb-4 animate-pulse"></i>                     <div class="text-2xl font-bold text-gray-900 mb-2">Celo69</div>                     <div class="text-gray-600">Memuat aplikasi...</div>                 </div>             </div>         `);
+        </script>
+        <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+            integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+            data-cf-beacon='{"rayId":"95657c9d9b229e40","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.6.2","token":"4edd5f8ec12a48cfa682ab8261b80a79"}'
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
